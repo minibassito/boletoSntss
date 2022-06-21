@@ -1,0 +1,131 @@
+﻿	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="https://kit.fontawesome.com/28b67609a5.js" crossorigin="anonymous"></script>
+
+
+
+	</head>
+
+	<body style="background-color:#68F078">
+		
+	<div class="d-flex justify-content-center">
+		
+	<form class="p-4 bg-success" id="registro" name="registro" method="post" action="script.php" enctype="multipart/form-data" autocomplete="on">
+		
+		<div align="right"><img src="images/sntss.png" width="80" height="80" ></div>
+		<h2>Sección XXXV SNTSS</h2>
+		<h2>Registro Sorteo Crédito Automóvil 2021</h2>
+
+	<p>
+		<div class="form-group">
+			<label for="nombre"> Nombre </label>
+			<input type="text" class="form-control" name="Nombre" id="Nombre" tyle="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();"/>
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+			<label for="mat"> Matrícula </label>
+			<input type="number" class="form-control" name="Mat" id="Mat" />
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+			<label for ="categoria"> Categoría </label>
+				<select name="Categoria" id="Categoria" class="form-control">
+					<option>  </option>
+					<option> Auxiliar de Soporte Técnico </option>
+					<option> Auxiliar Universal de Oficina </option>
+					<option> Asistente Médica </option>
+					<option> Médico Familiar </option>
+				</select>
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+		<label for ="jornada"> Jornada </label>
+		<select name="Jornada" id="Jornada" class="form-control">
+			<option>  </option>
+			<option> 8.0 horas </option>
+			<option> 6.5 horas </option>
+			<option> Velada </option>
+			<option> Jornada Acumulada </option>
+		</select>
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+		<label for ="turno"> Turno </label>
+		<select name="Turno" id="Turno" class="form-control">
+			<option>  </option>
+			<option> Matutino </option>
+			<option> Vespertino </option>
+			<option> Velada </option>
+			<option> Jornada Acumulada </option>
+		</select>
+		</div>
+	</p>
+
+	<p>
+	<div class="form-group">
+	  <label for ="adscripcion"> Adscripción </label>
+	  <select name="Adscripcion" id="Adscripcion" class="form-control">
+	    <option> </option>
+	    <option> UMF 163 </option>
+	    <option> HGR 2 </option>
+	    <option> HGZ 32 </option>
+	    <option> UMF 160 </option>
+	  </select>
+	</div>
+	</p>
+
+	<p>
+		
+	</p>
+
+	<p>
+		<div class="form-group">
+			<label for="telefono"> Teléfono </label>
+			<input type="number" name="Telefono" id="Telefono" class="form-control" />
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+		<label for="file"> Subir tarjetón </label>
+		<br>
+		<input name="userfile" type="file">
+		</div>
+	</p>
+
+	<p>
+		<div class="form-group">
+			<input type="submit" name="enviar" id="enviar" value="Enviar" />
+			<input type="reset" name="cancelar" id="cancelar" value="Cancelar" />
+		</div>
+	</p>
+
+
+	</form>
+	</div>
+	</body>
+	</html>

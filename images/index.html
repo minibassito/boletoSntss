@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Registro</title>
+</head>
+
+<body>
+<form id="registro" name="registro" method="post" action="script.php">
+
+<p>
+	<label for="nombre"> Nombre </label>
+	<input type="text" name="Nombre" id="Nombre" />
+</p>
+
+<p>
+	<label for="mat"> Matrícula </label>
+	<input type="text" name="Mat" id="Mat" />
+</p>
+
+<p>
+	<label for ="categoria"> Categoría </label>
+	<select name="Categoria" id="Categoria">
+		<option>  </option>
+		<option> Auxiliar de Soporte Técnico </option>
+		<option> Auxiliar Universal de Oficina </option>
+		<option> Asistente Médica </option>
+		<option> Médico Familiar </option>
+	</select>
+</p>
+
+<p>
+	<label for ="jornada"> Jornada </label>
+	<select name="Jornada" id="Jornada">
+		<option>  </option>
+		<option> 8.0 horas </option>
+		<option> 6.5 horas </option>
+		<option> Velada </option>
+		<option> Jornada Acumulada </option>
+	</select>
+</p>
+
+<p>
+	<label for ="turno"> Turno </label>
+	<select name="Turno" id="Turno">
+		<option>  </option>
+		<option> Matutino </option>
+		<option> Vespertino </option>
+		<option> Velada </option>
+		<option> Jornada Acumulada </option>
+	</select>
+</p>
+
+<p>
+	<label for ="adscripcion"> Adscripción </label>
+	<select name="Adscripcion" id="Adscripcion">
+		<option> UMF 163 </option>
+		<option> HGR 2 </option>
+		<option> HGZ 32 </option>
+		<option> UMF 160 </option>
+	</select>
+</p>
+
+<p>
+	<label for="telefono"> Teléfono </label>
+	<input type="text" name="Telefono" id="Telefono" />
+</p>
+
+<p>
+	<input type="submit" name="enviar" id="enviar" value="Enviar" />
+</p>
+
+</form>
+
+</body>
+</html>
