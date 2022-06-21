@@ -7,6 +7,7 @@ $categoria= $_POST['Categoria'];
 $jornada= $_POST['Jornada'];
 $turno= $_POST['Turno'];
 $adscripcion= $_POST['Adscripcion'];
+$correo= $_POST['Correo'];
 $telefono= $_POST['Telefono'];
 
 
@@ -25,7 +26,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 
 
 
-$sql = "INSERT INTO tabla (nombre,matricula,categoria,jornada,turno,adscripcion,telefono) VALUES ('$nombre','$mat','$categoria','$jornada','$turno','$adscripcion','$telefono')";
+$sql = "INSERT INTO tabla (nombre,matricula,categoria,jornada,turno,adscripcion,correo,telefono) VALUES ('$nombre','$mat','$categoria','$jornada','$turno','$adscripcion','$correo','$telefono')";
 		
 	if (mysqli_query($conn, $sql)) {
       		//echo "<br>New record created successfully<br>";
