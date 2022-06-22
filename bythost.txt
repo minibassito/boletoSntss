@@ -1,0 +1,12 @@
+
+Control panel username:	b22_32013990
+Control panel password:	**********
+Control panel URL:	cpanel.byethost22.com
+MySQL username	b22_32013990
+MySQL password:	**********
+MySQL hostname:	sql313.byethost22.com
+FTP username:	b22_32013990
+FTP password:	**********
+FTP host name:	ftp.byethost22.com
+Your Website URL:	http://minibassito.byethost22.com
+ 	 
